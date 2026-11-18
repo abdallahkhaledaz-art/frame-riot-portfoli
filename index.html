@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="FRAME RIOT — Video editing, motion design and visual storytelling.">
+<title>FRAME RIOT® — Video Editor Portfolio</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+:root{--bg:#0b0911;--panel:#171321;--white:#f8f5ff;--muted:#aaa3b7;--orange:#ff6b35;--purple:#9d5cff;--line:rgba(255,255,255,.12)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--white);font-family:'DM Sans',sans-serif;overflow-x:hidden}
+a{color:inherit;text-decoration:none}.wrap{width:min(1160px,calc(100% - 44px));margin:auto}
+nav{display:flex;justify-content:space-between;align-items:center;padding:26px 0;border-bottom:1px solid var(--line)}
+.logo{font:700 23px 'Space Grotesk';letter-spacing:-1.5px}.logo span{color:var(--orange)}.navlinks{display:flex;gap:30px;color:#d2ccdc;font-size:13px}
+.pill{border:1px solid var(--line);padding:11px 17px;border-radius:30px;font-size:12px}
+.hero{padding:105px 0 75px;position:relative}.eyebrow{color:var(--orange);font-size:11px;letter-spacing:3px;font-weight:800}
+h1{font:700 clamp(62px,11vw,140px)/.88 'Space Grotesk';letter-spacing:-.085em;margin:24px 0 22px;max-width:950px}
+h1 .outline{color:transparent;-webkit-text-stroke:1.5px var(--white)}h1 .accent{color:var(--orange)}
+.hero-bottom{display:flex;justify-content:space-between;align-items:end;gap:30px;margin-top:34px}.intro{color:var(--muted);max-width:390px;line-height:1.7;font-size:15px}.cta{display:inline-flex;align-items:center;gap:14px;background:var(--orange);color:#160d0a;padding:16px 21px;border-radius:4px;font-weight:800;font-size:13px}
+.stamp{position:absolute;right:4%;top:90px;width:116px;height:116px;border:1px solid var(--purple);border-radius:50%;display:grid;place-items:center;color:#d8c2ff;font-size:11px;text-align:center;transform:rotate(12deg);line-height:1.5}
+.section{padding:70px 0}.section-head{display:flex;justify-content:space-between;align-items:end;margin-bottom:28px}.kicker{font-size:11px;color:var(--purple);letter-spacing:2px;font-weight:800}.section h2{font:700 clamp(36px,6vw,66px)/1 'Space Grotesk';letter-spacing:-.06em;margin:10px 0 0}.count{color:var(--muted);font-size:12px}
+.projects{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.project{background:var(--panel);border:1px solid var(--line);padding:10px;transition:.25s}.project:hover{transform:translateY(-6px);border-color:var(--purple)}.video-wrap{aspect-ratio:9/16;background:#24202e;overflow:hidden;position:relative}.video-wrap video{width:100%;height:100%;object-fit:cover;display:block}.tag{position:absolute;left:12px;top:12px;background:var(--orange);color:#1b0c06;padding:7px 10px;font-size:10px;font-weight:800;text-transform:uppercase}.project-info{display:flex;justify-content:space-between;align-items:start;padding:15px 5px 8px}.project h3{font:600 19px 'Space Grotesk';margin:0 0 5px}.project p{font-size:11px;color:var(--muted);margin:0}.arrow{font-size:22px;color:var(--orange)}
+.services{background:linear-gradient(115deg,rgba(157,92,255,.16),transparent 48%),#14101d;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}.service-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);margin-top:30px}.service{background:#14101d;padding:26px;min-height:155px}.service b{font:600 20px 'Space Grotesk';display:block;margin:22px 0 8px}.service small{color:var(--muted);line-height:1.6}.num{color:var(--orange);font-size:11px}
+.about{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center}.about-card{background:linear-gradient(135deg,var(--purple),#3a1c60 60%,var(--orange));padding:34px;min-height:270px;display:flex;flex-direction:column;justify-content:space-between}.about-card strong{font:700 54px/.9 'Space Grotesk';letter-spacing:-4px}.about p{color:var(--muted);line-height:1.8}.contact{padding:85px 0;background:var(--orange);color:#160d0a}.contact .kicker{color:#4b1c0a}.contact h2{font:700 clamp(45px,8vw,92px)/.95 'Space Grotesk';letter-spacing:-.07em;margin:16px 0 28px;max-width:850px}.contact a{display:inline-block;border:1px solid rgba(0,0,0,.35);padding:15px 20px;font-weight:800;font-size:13px}
+footer{padding:24px 0;color:var(--muted);font-size:11px;display:flex;justify-content:space-between}
+@media(max-width:760px){.navlinks{display:none}.hero{padding:80px 0 55px}.stamp{width:82px;height:82px;right:0;top:35px;font-size:9px}.hero-bottom{align-items:start;flex-direction:column}.projects{grid-template-columns:1fr 1fr}.service-grid{grid-template-columns:1fr}.about{grid-template-columns:1fr;gap:25px}.section{padding:52px 0}}
+@media(max-width:480px){.projects{grid-template-columns:1fr}.project{max-width:340px;margin:auto;width:100%}.wrap{width:calc(100% - 30px)}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<nav><a class="logo" href="#">FRAME<span>RIOT</span>®</a><div class="navlinks"><a href="#work">WORK</a><a href="#services">SERVICES</a><a href="#about">ABOUT</a></div><a class="pill" href="#contact">LET'S TALK ↗</a></nav>
+<header class="hero">
+<div class="eyebrow">INDEPENDENT VIDEO EDITOR / VISUAL STORYTELLER</div>
+<div class="stamp">CUT DIFFERENT<br>THINK BIGGER<br>® 2026</div>
+<h1>MAKE IT<br><span class="outline">MOVE.</span><br><span class="accent">MAKE IT</span><br>MATTER.</h1>
+<div class="hero-bottom"><p class="intro">I turn raw footage into stories that move people. Video editing, motion and bold visuals built to make every second count.</p><a class="cta" href="#work">EXPLORE MY WORK <span>↘</span></a></div>
+</header>
+<section class="section" id="work">
+<div class="section-head"><div><div class="kicker">SELECTED PROJECTS / 2026</div><h2>THE WORK.</h2></div><div class="count">03 PROJECTS — 01 VISION</div></div>
+<div class="projects">
+<article class="project"><div class="video-wrap"><span class="tag">Fitness</span><video controls preload="metadata" playsinline><source src="assets/gym-training.mp4" type="video/mp4"></video></div><div class="project-info"><div><h3>Training Mode</h3><p>FITNESS / SHORT-FORM EDIT</p></div><span class="arrow">↗</span></div></article>
+<article class="project"><div class="video-wrap"><span class="tag">Social Content</span><video controls preload="metadata" playsinline><source src="assets/fitness-presenter.mp4" type="video/mp4"></video></div><div class="project-info"><div><h3>Fitness Talk</h3><p>CREATOR CONTENT / EDITING</p></div><span class="arrow">↗</span></div></article>
+<article class="project"><div class="video-wrap"><span class="tag">Real Estate</span><video controls preload="metadata" playsinline><source src="assets/real-estate-presenter.mp4" type="video/mp4"></video></div><div class="project-info"><div><h3>Property Story</h3><p>REAL ESTATE / PRESENTATION</p></div><span class="arrow">↗</span></div></article>
+</div>
+</section>
+</div>
+<section class="section services" id="services"><div class="wrap"><div class="kicker">WHAT I DO</div><h2>BUILT TO GRAB<br>ATTENTION.</h2><div class="service-grid"><div class="service"><span class="num">01 / EDIT</span><b>Video Editing</b><small>Short-form content, reels, YouTube videos and branded edits.</small></div><div class="service"><span class="num">02 / MOTION</span><b>Motion Graphics</b><small>Dynamic titles, transitions and visual elements that add energy.</small></div><div class="service"><span class="num">03 / STORY</span><b>Visual Storytelling</b><small>Strong pacing, clear structure and edits with a purpose.</small></div></div></div></section>
+<div class="wrap"><section class="section about" id="about"><div class="about-card"><span class="eyebrow" style="color:#fff">THE MIND BEHIND THE CUT</span><strong>LESS<br>ORDINARY.<br>MORE IMPACT.</strong><span>FRAME RIOT®</span></div><div><div class="kicker">ABOUT THE EDITOR</div><h2>NOT JUST<br>A CUT.</h2><p>I'm a video editor focused on turning ideas and footage into engaging visual stories. From fitness content to real estate presentations, I build edits that keep the viewer watching.</p><p><b style="color:var(--white)">Abdallah Khaled</b> <span style="color:var(--muted)">— Founder / Video Editor</span></p></div></section></div>
+<section class="contact" id="contact"><div class="wrap"><div class="kicker">HAVE A PROJECT IN MIND?</div><h2>LET'S MAKE<br>SOMETHING LOUD.</h2><a href="mailto:abdallah.khaled.az@gmail.com">START A PROJECT ↗</a><p style="font-size:11px;margin-top:22px">Email: abdallah.khaled.az@gmail.com</p></div></section>
+<div class="wrap"><footer><span>© 2026 FRAME RIOT® — ALL RIGHTS RESERVED</span><span>MAKE EVERY FRAME MATTER.</span></footer></div>
+</body></html>
